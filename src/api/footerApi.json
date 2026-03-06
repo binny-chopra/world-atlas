@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "MdPlace",
+        "title": "Find us",
+        "details": "College Park, Maryland"
+    },
+    {
+        "icon": "IoCallSharp",
+        "title": "Call us",
+        "details": "2404674008"
+    },
+    {
+        "icon": "TbMailPlus",
+        "title": "Mail us",
+        "details": "159.binny@gmail.com"
+    }
+]
