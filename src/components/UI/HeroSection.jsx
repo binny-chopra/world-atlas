@@ -1,6 +1,7 @@
 import { FaLongArrowAltRight } from "react-icons/fa"
+
 export const HeroSection = () => {
-    return <>
+    return (
         <main className="hero-section main">
             <div className="container grid grid-two-cols">
                 <div className="hero-content">
@@ -13,10 +14,12 @@ export const HeroSection = () => {
                     <button className="btn btn-darken btn-inline bg-white-box">
                         Start Exploring <FaLongArrowAltRight />
                     </button>
-                    <div className="hero-image">
-                        <img src="/images/world.png" alt="world beauty" className="banner-image" />
-                    </div>
+                </div>
+
+                <div className="hero-image">
+                    <img src="/images/world.png" alt="world beauty" className="banner-image" />
                 </div>
             </div>
-        </main></>
+        </main>
+    )
 }
